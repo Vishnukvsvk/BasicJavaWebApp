@@ -12,13 +12,10 @@ variables:
   azureSubscription: 'b01f618b-6bf9-4e92-bc72-4a6515175c4c'
 
   # Web app name
-  webAppName: 'app90888'
+  webAppName: 'app0021'
 
   # Environment name
-  environmentName: 'app90888'
-
-  # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  environmentName: 'app0021'
 
 stages:
 - stage: Build
