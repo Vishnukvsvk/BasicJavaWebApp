@@ -26,7 +26,8 @@ stages:
   jobs:
   - job: MavenPackageAndPublishArtifacts
     displayName: Maven Package and Publish Artifacts
-    pool: pool1
+    pool:
+      name: pool1
 
     steps:
     - task: Maven@3
@@ -52,7 +53,8 @@ stages:
   - deployment: DeployLinuxWebApp
     displayName: Deploy Linux Web App
     environment: $(environmentName)
-    pool: pool1
+    pool: 
+     name: pool1
     strategy:
       runOnce:
         deploy:
