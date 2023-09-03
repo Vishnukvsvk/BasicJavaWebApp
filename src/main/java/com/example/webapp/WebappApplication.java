@@ -15,6 +15,6 @@ public class WebappApplication {
 
 	@GetMapping
 	public String hello(){
-		return "Hello buddy";
+		return "Hello Jean Queiroz";
 	}
 }
